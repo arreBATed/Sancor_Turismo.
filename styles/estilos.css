@@ -11,7 +11,7 @@ header  {
     display: flex;
     align-items: center;
     position: relative;
-    color: white;
+    color: greenyellow;
     top: 35px;
     left: 40px
 }
@@ -22,11 +22,11 @@ header img {
     position: left;
     top: 35px;
     left: 20px;
-    border: 5px solid black;
+    border: 7px solid black;
 }
 
 footer  {
-    color: white;
+    color: greenyellow;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -36,12 +36,13 @@ footer  {
 
 #footer_part_1  {
     width: 80%;
-    float: left;
-    padding: 10px;
+    /*float: left;*/
+    text-align: center;
+    padding: 3px;
 }
 
 #footer_part_2 {   
     width: 80%;
-    float: right;
-    padding: 5px;
+    text-align: center;
+    padding: 3px;
 }
